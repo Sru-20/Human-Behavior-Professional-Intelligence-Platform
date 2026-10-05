@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+data/raw/
+chroma_db/
+node_modules/
+*.pkl
