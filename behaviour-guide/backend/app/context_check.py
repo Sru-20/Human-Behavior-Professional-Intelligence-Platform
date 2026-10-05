@@ -1,1 +1,1 @@
-# Retrieved-context checks will be implemented in Checkpoint 1, Day 8.
+# Checkpoint 1, Day 8: Determine whether enough scenario context is available before answering.

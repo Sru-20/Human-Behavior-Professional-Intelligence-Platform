@@ -1,12 +1,33 @@
 # Behaviour Guide
 
-Behaviour Guide is an evidence-aware chatbot project for helping people navigate real-life behavioural situations with clear, practical guidance. It will ground answers in retrieved sources, cite its evidence, and be honest when evidence is insufficient.
+Behaviour Guide is an evidence-grounded AI system designed to help users reason through and practise real-life communication, behavioural, professional, educational, and social situations. Examples include presentations, school or college, workplace communication, professional behaviour, talking to elders, coworker interactions, and difficult conversations.
 
 ## Setup
 
-1. Create and activate a Python 3.11 virtual environment in `backend`.
-2. Install dependencies with `pip install -r requirements.txt`.
-3. Copy `.env.example` to `.env` and add configuration values as needed.
-4. Start the API with `uvicorn app.main:app --reload` from `backend`.
-5. Run tests with `pytest` from `backend`.
-6. Open `http://127.0.0.1:8000/health` to check the API.
+Requires Python 3.11.
+
+From the project root, create and activate a virtual environment and install the backend requirements.
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r backend\requirements.txt
+```
+
+macOS/Linux:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r backend/requirements.txt
+```
+
+From the project root, start the server:
+
+```bash
+uvicorn backend.app.main:app --reload
+```
+
+Open `http://127.0.0.1:8000/health` to check the health endpoint. Run tests from the project root with `pytest`.

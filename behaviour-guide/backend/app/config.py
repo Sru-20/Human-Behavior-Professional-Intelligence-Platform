@@ -1,8 +1,10 @@
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv()
+env_path = Path(__file__).resolve().parents[1] / ".env"
+load_dotenv(dotenv_path=env_path)
 
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "")
 LLM_MODEL = os.getenv("LLM_MODEL", "")

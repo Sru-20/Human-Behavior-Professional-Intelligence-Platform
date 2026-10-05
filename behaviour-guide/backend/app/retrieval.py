@@ -1,1 +1,1 @@
-# Source retrieval will be implemented in Checkpoint 1, Day 5.
+# Checkpoint 1, Day 5: Chroma-based retrieval of evidence chunks.

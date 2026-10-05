@@ -1,17 +1,19 @@
-# Checkpoint 1
+# Checkpoint Notes
+
+## Checkpoint 1
 Status: not started
 
-# Checkpoint 2
+## Checkpoint 2
 Status: not started
 
-# Checkpoint 3
+## Checkpoint 3
 Status: not started
 
-# Checkpoint 4
+## Checkpoint 4
 Status: not started
 
-# Checkpoint 5
+## Checkpoint 5
 Status: not started
 
-# Checkpoint 6
+## Checkpoint 6
 Status: not started
